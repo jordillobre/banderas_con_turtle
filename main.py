@@ -26,6 +26,9 @@ def main():
             break  
         elif pais == "salir":
             break 
+        elif pais == "ayuda":
+            ayuda = ', '.join([pais.capitalize() for pais in list_paises])
+            print("Las banderas que puedo dibujar actualmente son:" , ayuda)
         else:
             print("El país ingresado no está en la lista. Inténtelo nuevamente.")
 
