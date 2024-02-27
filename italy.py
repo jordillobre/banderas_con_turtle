@@ -3,7 +3,6 @@ import time
 
 def draw_italy():
     Turtle.setup(700, 700)
-
     Turtle.bgcolor("Black")
 
     ancho_banda = 300

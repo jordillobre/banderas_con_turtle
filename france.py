@@ -2,8 +2,8 @@ import turtle as Turtle
 import time
 
 def draw_france():
-    Turtle.setup(700, 700)
 
+    Turtle.setup(700, 700)
     Turtle.bgcolor("Black")
 
     ancho_banda = 300

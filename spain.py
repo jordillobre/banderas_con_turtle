@@ -2,9 +2,9 @@ import turtle as Turtle
 import time
 
 def draw_spain():
+
     Turtle.setup(700, 700)
 
-    # Definir dimensiones y colores de la bandera de España
     ancho_banda = 300
     alto_banda = 200
     color_rojo = "#FF0000"
