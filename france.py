@@ -14,7 +14,7 @@ def draw_france():
 
     Turtle.hideturtle()
     Turtle.penup()
-    Turtle.goto(-ancho_banda / 2, -alto_banda/3)
+    Turtle.goto(-ancho_banda/2, -alto_banda/2)
     Turtle.pendown()
     Turtle.showturtle()
 

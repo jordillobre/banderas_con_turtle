@@ -4,9 +4,10 @@ import france
 import italy
 import germany
 import japan
+import finland
 import time
 
-list_paises = ["españa", "francia", "italia", "alemania", "japon"]
+list_paises = ["españa", "francia", "italia", "alemania", "japon", "finlandia"]
 
 def main():
     while True:
@@ -23,6 +24,8 @@ def main():
                 germany.draw_germany()
             elif pais == "japon":
                 japan.draw_japan()
+            elif pais == "finlandia":
+                finland.draw_finland()
             break  
         elif pais == "salir":
             break 

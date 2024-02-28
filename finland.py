@@ -1,16 +1,16 @@
 import turtle as Turtle
 import time
 
-def draw_japan():
+def draw_finland():
 
     Turtle.setup(700, 700)
     Turtle.bgcolor("Black")
 
     ancho_banda = 300
     alto_banda = 200
-    color_rojo = "#FF0000"
+    ancho_cruz = 40
+    color_azul = "#002F6C"
     color_blanco = "#FFFFFF"
-    diametro = 60
 
     Turtle.hideturtle()
     Turtle.penup()
@@ -32,15 +32,38 @@ def draw_japan():
 
     Turtle.penup()
     Turtle.left(90)
-    Turtle.goto(0, -diametro)
+    Turtle.goto(-ancho_banda/2, ancho_cruz/2)
     Turtle.pendown()
 
     Turtle.begin_fill()
-    Turtle.color(color_rojo)
-    Turtle.circle(diametro)
+    Turtle.color(color_azul)
+    Turtle.forward(ancho_banda)
+    Turtle.right(90)
+    Turtle.forward(ancho_cruz)
+    Turtle.right(90)
+    Turtle.forward(ancho_banda)
+    Turtle.right(90)
+    Turtle.forward(ancho_cruz)
     Turtle.end_fill()
 
-   
+    Turtle.penup()
+    Turtle.left(90)
+    Turtle.goto(-ancho_cruz, alto_banda/2)
+    Turtle.pendown()
+
+    Turtle.begin_fill()
+    Turtle.color(color_azul)
+    Turtle.left(90)
+    Turtle.forward(alto_banda)
+    Turtle.right(90)
+    Turtle.forward(ancho_cruz)
+    Turtle.right(90)
+    Turtle.forward(alto_banda)
+    Turtle.right(90)
+    Turtle.forward(ancho_cruz)
+    Turtle.end_fill()
+
+
     Turtle.hideturtle()
     time.sleep(10)
     
