@@ -6,8 +6,8 @@ def draw_france():
     Turtle.setup(700, 700)
     Turtle.bgcolor("Black")
 
-    ancho_banda = 300
-    alto_banda = 200
+    ancho_banda = 600
+    alto_banda = 400
     color_rojo = "#FF0000"
     color_azul = "#002654"
     color_blanco = "#FFFFFF"

@@ -5,15 +5,15 @@ def draw_spain():
 
     Turtle.setup(700, 700)
 
-    ancho_banda = 300
-    alto_banda = 200
+    ancho_banda = 600
+    alto_banda = 400
     color_rojo = "#FF0000"
     color_amarillo = "#FFFF00"
 
     Turtle.speed(3)
     Turtle.hideturtle()
     Turtle.penup()
-    Turtle.goto(-ancho_banda / 2, -alto_banda/3)
+    Turtle.goto(-ancho_banda / 2, -alto_banda/6)
     Turtle.pendown()
     Turtle.showturtle()
 

@@ -5,8 +5,8 @@ def draw_italy():
     Turtle.setup(700, 700)
     Turtle.bgcolor("Black")
 
-    ancho_banda = 300
-    alto_banda = 200
+    ancho_banda = 600
+    alto_banda = 400
     color_rojo = "#ce2b37"
     color_verde = "#009246"
     color_blanco = "#FFFFFF"

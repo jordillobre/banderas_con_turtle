@@ -6,9 +6,9 @@ def draw_finland():
     Turtle.setup(700, 700)
     Turtle.bgcolor("Black")
 
-    ancho_banda = 300
-    alto_banda = 200
-    ancho_cruz = 40
+    ancho_banda = 600
+    alto_banda = 400
+    ancho_cruz = 80
     color_azul = "#002F6C"
     color_blanco = "#FFFFFF"
 
